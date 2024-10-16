@@ -1,13 +1,3 @@
-const express = require("express");
-
-const {
-  getFilteredProducts,
-  getProductDetails,
-} = require("../../controllers/shop/products-controller");
-
-const router = express.Router();
-
-router.get("/get", getFilteredProducts);
-router.get("/get/:id", getProductDetails);
-
-module.exports = router;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6137a395e410d39c79b53472ba42854124d608389de92124314374ea6779abcd
+size 293

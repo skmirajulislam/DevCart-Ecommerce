@@ -1,18 +1,3 @@
-const express = require("express");
-
-const {
-  getAllOrdersOfAllUsers,
-  getOrderDetailsForAdmin,
-  updateOrderStatus,
-} = require("../../controllers/admin/order-controller");
-
-const router = express.Router();
-
-router.get("/get", getAllOrdersOfAllUsers);
-router.get("/details/:id", getOrderDetailsForAdmin);
-router.put("/update/:id", updateOrderStatus);
-
-module.exports = router;
-
-// 1234 - admin
-// 123456789 - miraj
+version https://git-lfs.github.com/spec/v1
+oid sha256:321fbd5e0600f4837962aadfcb0b17c1c57678eb0c92de2c9ff025ed0ce36200
+size 418

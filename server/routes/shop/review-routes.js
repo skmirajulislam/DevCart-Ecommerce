@@ -1,13 +1,3 @@
-const express = require("express");
-
-const {
-  addProductReview,
-  getProductReviews,
-} = require("../../controllers/shop/product-review-controller");
-
-const router = express.Router();
-
-router.post("/add", addProductReview);
-router.get("/:productId", getProductReviews);
-
-module.exports = router;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1d0f074cce764f9c308ba0503dd88aaedeb7bf5526a50b398ed683c5aadb62f
+size 297

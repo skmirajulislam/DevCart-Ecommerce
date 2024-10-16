@@ -1,33 +1,3 @@
-const mongoose = require("mongoose");
-
-const OrderSchema = new mongoose.Schema({
-  userId: String,
-  cartId: String,
-  cartItems: [
-    {
-      productId: String,
-      title: String,
-      image: String,
-      price: String,
-      quantity: Number,
-    },
-  ],
-  addressInfo: {
-    addressId: String,
-    address: String,
-    city: String,
-    pincode: String,
-    phone: String,
-    notes: String,
-  },
-  orderStatus: String,
-  paymentMethod: String,
-  paymentStatus: String,
-  totalAmount: Number,
-  orderDate: Date,
-  orderUpdateDate: Date,
-  paymentId: String,
-  payerId: String,
-});
-
-module.exports = mongoose.model("Order", OrderSchema);
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb5e86234bb6c2ebc11172115def5e455d7aa30c1805ef3125d7d36b20c58cb2
+size 645

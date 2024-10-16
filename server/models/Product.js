@@ -1,18 +1,3 @@
-const mongoose = require("mongoose");
-
-const ProductSchema = new mongoose.Schema(
-  {
-    image: String,
-    title: String,
-    description: String,
-    category: String,
-    brand: String,
-    price: Number,
-    salePrice: Number,
-    totalStock: Number,
-    averageReview: Number,
-  },
-  { timestamps: true }
-);
-
-module.exports = mongoose.model("Product", ProductSchema);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3048c6230ff7f00fa6068c1433f96a731ec380c6e20caa04952dfed9ffbcb52b
+size 374

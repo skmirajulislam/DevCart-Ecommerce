@@ -1,30 +1,3 @@
-const mongoose = require("mongoose");
-
-const CartSchema = new mongoose.Schema(
-  {
-    userId: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "User",
-      required: true,
-    },
-    items: [
-      {
-        productId: {
-          type: mongoose.Schema.Types.ObjectId,
-          ref: "Product",
-          required: true,
-        },
-        quantity: {
-          type: Number,
-          required: true,
-          min: 1,
-        },
-      },
-    ],
-  },
-  {
-    timestamps: true,
-  }
-);
-
-module.exports = mongoose.model("Cart", CartSchema);
+version https://git-lfs.github.com/spec/v1
+oid sha256:001fe95070c5e9988fe8452310ac76cb6bd778f04b7a238ad3c7c6c4f2c3ab5f
+size 549

@@ -1,23 +1,3 @@
-const cloudinary = require("cloudinary").v2;
-const multer = require("multer");
-require('dotenv').config();
-
-cloudinary.config({
-  cloud_name: process.env.CLOUD_NAME,
-  api_key: process.env.API_KEY_CLOUDINARY,
-  api_secret: process.env.API_SECRET_CLOUDINARY,
-});
-
-const storage = new multer.memoryStorage();
-
-async function imageUploadUtil(file) {
-  const result = await cloudinary.uploader.upload(file, {
-    resource_type: "auto",
-  });
-
-  return result;
-}
-
-const upload = multer({ storage });
-
-module.exports = { upload, imageUploadUtil };
+version https://git-lfs.github.com/spec/v1
+oid sha256:82d0d40486c1346ecbf4778987d265183f5cf6a2c0162e6e5e54ea6c7212a8af
+size 542

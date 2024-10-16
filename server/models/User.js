@@ -1,25 +1,3 @@
-const mongoose = require("mongoose");
-
-const UserSchema = new mongoose.Schema({
-  userName: {
-    type: String,
-    required: true,
-    unique: true,
-  },
-  email: {
-    type: String,
-    required: true,
-    unique: true,
-  },
-  password: {
-    type: String,
-    required: true,
-  },
-  role: {
-    type: String,
-    default: "user",
-  },
-});
-
-const User = mongoose.model("User", UserSchema);
-module.exports = User;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4dcdee5520b34909673cf94a43405386361c78949053c4bc15363ced313fa16
+size 415

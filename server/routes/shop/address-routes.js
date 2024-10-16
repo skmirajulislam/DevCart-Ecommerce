@@ -1,17 +1,3 @@
-const express = require("express");
-
-const {
-  addAddress,
-  fetchAllAddress,
-  editAddress,
-  deleteAddress,
-} = require("../../controllers/shop/address-controller");
-
-const router = express.Router();
-
-router.post("/add", addAddress);
-router.get("/get/:userId", fetchAllAddress);
-router.delete("/delete/:userId/:addressId", deleteAddress);
-router.put("/update/:userId/:addressId", editAddress);
-
-module.exports = router;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6673799557ad07b066b4d2afb7d97926875a24fb7cda6ad21cc432c11867dbe9
+size 422
