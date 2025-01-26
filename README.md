@@ -2,6 +2,10 @@
 
 ### Project Code: DLBCSPJWD01
 
+## Collaborators : 
+1. **[SK Sahil](https://github.com/programmer-sahil) - Owner of this project & main frontend Developer**
+2. **[SK Mirajul Islam](https://github.com/skmirajulislam) -  Advisor & backend Developer**
+
 **Tech Stack:**  
 React, Redux Toolkit, TailwindCSS, MongoDB, Express.js, Node.js, Cloudinary, PayPal Sandbox, JavaScript, HTML5, CSS3
 
