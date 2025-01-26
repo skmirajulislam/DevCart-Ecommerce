@@ -1,6 +1,6 @@
 # **Full Stack University Project: E-Commerce App with Admin Panel**
 
-### Project Code: DLBCSPJWD01 || IU-Hochschulprojekt
+### Project Code: DLBCSPJWD01 | IU-Hochschulprojekt
 
 ## Collaborators : 
 1. **[SK Sahil](https://github.com/programmer-sahil) - Owner of this project & main frontend Developer**
