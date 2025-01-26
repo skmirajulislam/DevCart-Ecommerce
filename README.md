@@ -9,6 +9,11 @@
 **Tech Stack:**  
 React, Redux Toolkit, TailwindCSS, MongoDB, Express.js, Node.js, Cloudinary, PayPal Sandbox, JavaScript, HTML5, CSS3
 
+**Was ist DevCart-Ecommerce?**
+
+DevCart-Ecommerce ist eine moderne, entwicklerfreundliche E-Commerce-Plattform, die darauf abzielt, den Aufbau und die Verwaltung von Online-Shops einfacher, schneller und effektiver zu gestalten. Perfekt für Start-ups, KMUs und Entwickler:innen, die nach flexiblen und skalierbaren Lösungen suchen.
+
+
 ---
 
 <img width="742" alt="Ecommerce Website Screenshot" src="https://github.com/user-attachments/assets/8f6222d3-a0c3-4599-8647-4715b95bc815">
